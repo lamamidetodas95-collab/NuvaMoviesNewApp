@@ -29,13 +29,13 @@ jobs:
       run: ./gradlew assembleDebug --stacktrace
       
     - name: Upload Debug APK
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: nuva-movies-debug
         path: app/build/outputs/apk/debug/app-debug.apk
         
     - name: Upload Release APK (if exists)
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       if: success()
       with:
         name: nuva-movies-release
