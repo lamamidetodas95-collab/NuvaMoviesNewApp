@@ -127,3 +127,11 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
 }
+
+
+// Deshabilitar completamente data binding tasks
+afterEvaluate {
+    tasks.matching { it.name.startsWith('dataBinding') }.all {
+        enabled = false
+    }
+}
