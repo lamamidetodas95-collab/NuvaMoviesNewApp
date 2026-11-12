@@ -52,7 +52,7 @@ android {
 
     buildFeatures {
         viewBinding true
-        // dataBinding true  // Deshabilitado temporalmente
+        dataBinding false  // Deshabilitado completamente
     }
 
     packagingOptions {
