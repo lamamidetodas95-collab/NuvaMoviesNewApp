@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="50" android:drawable="@drawable/icon_match_play_ongoing_0" />
+    <item android:duration="50" android:drawable="@drawable/icon_match_play_ongoing_1" />
+    <item android:duration="50" android:drawable="@drawable/icon_match_play_ongoing_2" />
+    <item android:duration="50" android:drawable="@drawable/icon_match_play_ongoing_3" />
+    <item android:duration="50" android:drawable="@drawable/icon_match_play_ongoing_4" />
+    <item android:duration="50" android:drawable="@drawable/icon_match_play_ongoing_5" />
+    <item android:duration="50" android:drawable="@drawable/icon_match_play_ongoing_6" />
+    <item android:duration="50" android:drawable="@drawable/icon_match_play_ongoing_7" />
+    <item android:duration="50" android:drawable="@drawable/icon_match_play_ongoing_8" />
+    <item android:duration="50" android:drawable="@drawable/icon_match_play_ongoing_9" />
+    <item android:duration="50" android:drawable="@drawable/icon_match_play_ongoing_10" />
+    <item android:duration="50" android:drawable="@drawable/icon_match_play_ongoing_11" />
+    <item android:duration="50" android:drawable="@drawable/icon_match_play_ongoing_12" />
+    <item android:duration="50" android:drawable="@drawable/icon_match_play_ongoing_13" />
+    <item android:duration="50" android:drawable="@drawable/icon_match_play_ongoing_14" />
+    <item android:duration="50" android:drawable="@drawable/icon_match_play_ongoing_15" />
+</animation-list>

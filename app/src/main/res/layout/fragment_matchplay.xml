@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/flContainer" android:background="@color/color_000000" android:focusable="false" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="15.0sp" android:textColor="@color/color_ffffff" android:id="@id/mTvDataInfo" android:background="#80000000" android:paddingLeft="27.0dp" android:paddingTop="17.0dp" android:paddingRight="13.0dp" android:paddingBottom="13.0dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="480.0dp" />
+    <com.live.view.player.LivePlayerController android:id="@id/mPlayerController" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <RelativeLayout android:layout_gravity="center" android:id="@id/mLayoutError" android:background="@drawable/bg_dialog" android:visibility="gone" android:layout_width="541.0dp" android:layout_height="208.0dp">
+        <ImageView android:id="@id/mImgWaring" android:layout_width="45.0dp" android:layout_height="45.0dp" android:layout_marginLeft="27.0dp" android:layout_marginTop="27.0dp" android:src="@mipmap/icon_error" />
+        <TextView android:textSize="21.0sp" android:textColor="@android:color/white" android:gravity="left" android:id="@id/mTextError" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dp" android:layout_marginTop="27.0dp" android:layout_marginRight="40.0dp" android:layout_toRightOf="@id/mImgWaring" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/color_8c9194" android:id="@id/mTextVersion" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="27.0dp" android:layout_marginBottom="13.0dp" android:layout_alignParentBottom="true" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/color_8c9194" android:id="@id/mTextAccount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="27.0dp" android:layout_marginBottom="13.0dp" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</FrameLayout>
