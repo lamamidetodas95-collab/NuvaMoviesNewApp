@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:gravity="center_vertical" android:paddingLeft="67.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
-        <ImageView android:id="@id/mImageIcon" android:layout_width="24.0dp" android:layout_height="21.0dp" android:scaleType="fitXY" />
-        <TextView android:textSize="21.0dp" android:textColor="@color/color_font_main" android:id="@id/mTitleText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="7.0dp" />
-    </LinearLayout>
-    <com.open.leanback.widget.HorizontalGridView android:id="@id/mRvFreeList" android:paddingLeft="60.0dp" android:paddingTop="20.0dp" android:paddingRight="60.0dp" android:focusable="false" android:clipChildren="false" android:clipToPadding="false" android:descendantFocusability="afterDescendants" android:layout_width="match_parent" android:layout_height="320.0dp" android:horizontalSpacing="32.0dp" />
-</LinearLayout>

@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<com.open.leanback.widget.VerticalGridView android:id="@id/mPersonRoot" android:paddingTop="45.0dp" android:focusable="true" android:focusableInTouchMode="true" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="239.0dp" android:horizontalSpacing="30.0dp" app:focusOutEnd="true" app:focusOutFront="true" app:focusOutSideEnd="false" app:focusOutSideStart="true" app:numberOfColumns="6"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />
