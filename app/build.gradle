@@ -95,7 +95,7 @@ dependencies {
     
     // Glide (Image Loading)
     implementation 'com.github.bumptech.glide:glide:4.15.1'
-    kapt 'com.github.bumptech.glide:compiler:4.15.1'
+    // kapt 'com.github.bumptech.glide:compiler:4.15.1'  // Deshabilitado - no se usa kapt
     
     // ExoPlayer (Video Player)
     implementation 'com.google.android.exoplayer:exoplayer:2.19.1'
